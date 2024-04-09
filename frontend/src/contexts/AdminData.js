@@ -3,7 +3,7 @@ import {useNavigate} from 'react-router-dom';
 import { alertcontext } from './AlertContext';
 
 const admincontext = createContext();
-const host = "http://localhost:5000";
+const host = "https://gymbro-lbim.onrender.com";
 
 const AdminData = (props) => {
   const [admin, setadmin] = useState({});
