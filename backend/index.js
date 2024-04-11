@@ -7,9 +7,7 @@ const app = express()
 const port = process.env.PORT  
 
 // cors 
-app.use(cors({
-  origin : "gymbro-app.vercel.app"
-}));
+app.use(cors());
 
 // database connection
 dbconnect(); 
