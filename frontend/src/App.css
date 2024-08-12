@@ -468,7 +468,7 @@ html, body, #root{
 
 .credentials{
   color: #000000;
-  font-size: medium;
+  font-size: 1vw;
   font-weight: 500;
   margin: 1vh 0vw 2vh 0vw;
 }
