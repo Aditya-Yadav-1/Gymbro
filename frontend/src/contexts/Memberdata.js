@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { alertcontext } from './AlertContext';
 
 const membercontext = createContext();
-const host = "http://localhost:5000";
+const host = "https://gymbro-lbim.onrender.com";
 
 const MemberData = (props) => {
   // const {admin, setadmin, getAdmin} = useContext(admincontext);
