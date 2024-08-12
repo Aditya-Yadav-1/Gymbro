@@ -33,6 +33,10 @@ const Login = () => {
                 Welcome To GYMBRO
             </div>
             <div className="login-form">
+                <div className='credentials'>
+                    Email: aditya2@gmail |
+                    Password: 12345678
+                </div>
                 <form>
                 <input
                     className='login-input'

@@ -1,11 +1,9 @@
 import React, {useContext, useState} from 'react';
 import crossicon from './Images/cross.jpg';
 import addicon from './Images/addIcon.png';
-import { membercontext } from '../contexts/Memberdata';
 import AddMemberModal from './AddMemberModal';
 
 const QueryBar = (props) => {
-    // const {members, setMembers, addMember} = useContext(membercontext);
     
     const [isModalOpen, setIsModalOpen] = useState(false);
     const {whichMembersToShow, setwhichMembersToShow, setSearchValue, searchValue} = props;
@@ -16,9 +14,9 @@ const QueryBar = (props) => {
         setSearchValue(e.target.value);
     }
 
-    const handleCross = (e) => {
-        setSearchValue('');
-    }
+    // const handleCross = (e) => {
+    //     setSearchValue('');
+    // }
 
     const handleCloseModal = () => {
         setIsModalOpen(false);
@@ -71,7 +69,7 @@ const QueryBar = (props) => {
                         value={searchValue}
                         onChange={handleSearchChange}
                     />
-                    <img id="cross-icon" src = {crossicon} onClick={handleCross} style={searchValue===''?{display:'none'}:{display:'block'}} alt = "addIcon"/>
+                    {/* <img id="cross-icon" src = {crossicon} onClick={handleCross} style={searchValue===''?{display:'none'}:{display:'block'}} alt = "addIcon"/> */}
                 </div>
             </div>
         </div>

@@ -1,6 +1,5 @@
 import React, {createContext, useContext} from 'react';
 import { useState } from 'react';
-import { admincontext } from '../contexts/AdminData';
 import { alertcontext } from './AlertContext';
 
 const membercontext = createContext();
